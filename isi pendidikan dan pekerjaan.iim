@@ -1,0 +1,18 @@
+﻿VERSION BUILD=8970419 RECORDER=FX
+TAB T=1
+URL GOTO=https://mobile.facebook.com/profile.php?v=info
+TAG POS=1 TYPE=A ATTR=TXT:Tambahkan<SP>pekerjaan
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/editprofile/exp/work/confirm.php?session_id=5e274c8d2075ebc03090&typeahead_sid=d1ad33df-f6ea-481d-bffb-07369303cb11&ref=m_upload_pic ATTR=NAME:query CONTENT=karyawan<SP>swasta
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/work/confirm.php?session_id=5e274c8d2075ebc03090&typeahead_sid=d1ad33df-f6ea-481d-bffb-07369303cb11&ref=m_upload_pic ATTR=*
+TAG POS=1 TYPE=A ATTR=TXT:Karyawan<SP>Swasta<SP>Berbisnis<SP>Online
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/work/save.php?eref=m_basic_profile&session_id=5e274c8d2075ebc03090&is_new=1&ref=m_upload_pic ATTR=*
+TAG POS=1 TYPE=A ATTR=TXT:Tambahkan<SP>SMA
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/editprofile/exp/edu/confirm.php?st=10&session_id=37be41421447cc435cd1&typeahead_sid=3fbd77c8-52b9-4504-89fe-0abd8e39db01&ref=m_upload_pic ATTR=NAME:query CONTENT=sma<SP>negeri<SP>1
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/edu/confirm.php?st=10&session_id=37be41421447cc435cd1&typeahead_sid=3fbd77c8-52b9-4504-89fe-0abd8e39db01&ref=m_upload_pic ATTR=*
+TAG POS=1 TYPE=A ATTR=TXT:SMA<SP>Negeri<SP>1<SP>Surakarta
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/edu/save.php?eref=m_basic_profile&session_id=37be41421447cc435cd1&is_new=1&ref=m_upload_pic ATTR=*
+TAG POS=1 TYPE=A ATTR=TXT:Tambahkan<SP>perguruan<SP>tinggi
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/editprofile/exp/edu/confirm.php?st=1&session_id=c819989bee9483d73a7b&typeahead_sid=18c79373-1ea2-41ad-a6a5-48fe70b44b08&ref=m_upload_pic ATTR=NAME:query CONTENT=universitas
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/edu/confirm.php?st=1&session_id=c819989bee9483d73a7b&typeahead_sid=18c79373-1ea2-41ad-a6a5-48fe70b44b08&ref=m_upload_pic ATTR=*
+TAG POS=1 TYPE=A ATTR=TXT:Universitas<SP>Padjadjaran
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/editprofile/exp/edu/save.php?eref=m_basic_profile&session_id=c819989bee9483d73a7b&is_new=1&ref=m_upload_pic ATTR=*
